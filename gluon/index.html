@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      href="https://raw.githubusercontent.com/OpenAsar/gluon/main/assets/logo.png" />
+    <title>Gluworld</title>
+    <script>
+      window.onload = () => {
+        (async () => {
+          const success = await Gluon.ipc.log("Message!");
+          console.log(success);
+        })();
+      };
+    </script>
+  </head>
+  <body>
+    hoge
+  </body>
+</html>

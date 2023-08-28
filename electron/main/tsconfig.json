@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "esModuleInterop": false,
+    "isolatedModules": true,
+    "allowSyntheticDefaultImports": true,
+  }
+}

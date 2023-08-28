@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client2</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/peerjs/1.4.7/peerjs.min.js"></script>
+    <script>
+        const peer = new Peer('client2', { host: 'localhost', port: 9001, path: '/' });
+        peer.on('connection', () => {
+            console.log('他のクライアントからの接続あり')
+        });
+    </script>
+</head>
+
+<body>
+    <h1>Client2</h1>
+</body>
+
+</html>
